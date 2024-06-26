@@ -1,1 +1,61 @@
-RTOS Notes. 
+//Udemy RTOS notes.
+
+
+Section 2 RTOS introduction 
+---------------------------
+
+
+Class 7: What is real time application RTA
+--------------------------------------------
+
+The myth is the Real time computing is equivalent to fast computing,
+but the truth is the Real time computing is equivalent to predictable computing. 
+
+Promises to meet its deadline for a given timeline
+
+A real time application promises a fairly constant response time, no matter in which constraint
+you execute that application
+
+RTA's have to meet the strict given response time. 
+RTA's are time deterministic applications
+
+
+There could be a small deviation in real time applications,
+response time as well in terms of milliseconds or seconds which will fall into the category of soft real time applications. 
+Hard real time applications must complete within a given time limit.
+
+Soft real time requirements are those that state time deadline, but breaching the deadline would not render
+the system useless.
+
+There could be a small deviation in terms of milliseconds or seconds, in terms of response time of a
+soft real time requirements.
+
+So,they are not strict as hard real time systems.
+
+Some more example of a real time applications are Missile guidance and control system.
+
+This is indeed a hard time system because, timeliness and response time is always strict and the deviation
+in the response time can cause chaos.
+
+All the control system requirements are usually hard real time systems.
+
+Anti-locking breaking system in a car, which is truly a hard real time scenario and
+
+Airbag deployment in a four wheeler also can be considered as hard real time applications.
+Because, the response time for detecting a crash to the deployment of an airbag is very important, isn't it?
+
+So,whereas the VOIP,that is voice over internet can be considered as a soft real time, because during
+communication there could be always a delay while transmitting packets and there could be dropping a
+couple of packets.
+Example: Whats app Call. 
+
+All these missing deadlines and dropping off packets cannot be perceived by the user.
+Sometimes the user will not be able to notice it.
+
+That's why, VOIP application can be considered as a soft real time system.
+
+So, other than that this Aircraft control, ATMs, robotics, medical applications, and there are many
+other applications where real-time applications play an important role.
+
+Aero space => fault detection[Hard],Display[Soft]
+Communication => Video streaming[Soft], whats app Call [Soft] 
