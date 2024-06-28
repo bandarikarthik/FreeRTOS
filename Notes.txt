@@ -59,3 +59,19 @@ other applications where real-time applications play an important role.
 
 Aero space => fault detection[Hard],Display[Soft]
 Communication => Video streaming[Soft], whats app Call [Soft] 
+
+Class 8 Real time operating System.
+-------------------------------------
+
+It's an OS ofcourse, specially designed to run applications
+with very precise timing and high degree of reliability.
+
+The well-known operating systems like Linux, Windows, the Mac OS, the iOS, and the Android, they all
+fall into the category of GPOS.
+
+RTOS : Vxworks [Intel] , Qnx [Blackberry] , INTEGRITY 
+
+
+
+
+
