@@ -71,6 +71,12 @@ fall into the category of GPOS.
 
 RTOS : Vxworks [Intel] , Qnx [Blackberry] , INTEGRITY 
 
+Class 9 RTOS vs GPOS : Task Scheduling
+---------------------------------------
+Throughput means-the total number of processes that complete their execution per unit time.
+
+So to a RTOS, achieving perfectibility or time deterministic nature is more important than throughput,
+but for the GPOS achieving higher throughput for user convenience is more important.
 
 
 
