@@ -68,3 +68,11 @@ void Task_2(void *pvparameters)
 }
 
 
+2.send_receive file  
+
+In this file Task A send global data to another Task B 
+data is not corrupted between them.
+
+Task A goes to block state after sending 10 values to queue 
+
+
