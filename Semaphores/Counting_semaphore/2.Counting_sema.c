@@ -125,18 +125,5 @@ void DAVE_Initialsisation(void){
 }
 
 
-/* output
- *
- *
- *
-Sema Task sent
-Sema Task received
-Sema Task sent
-Sema Task received
-Sema Task sent
-Sema Task received
- *
- *
- *
- */
+
 
