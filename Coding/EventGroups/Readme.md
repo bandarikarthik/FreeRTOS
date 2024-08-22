@@ -3,3 +3,5 @@ the calibration task runs only when it receives signal from temp and pressure ta
 
 #define configUSE_EVENTS_GROUPS  1 
 if above macro is there or not no problem in XMC 4400 it worked.
+
+in result variable we have value 3 (0010 | 0001) (2|1)  temp and pressure bits
