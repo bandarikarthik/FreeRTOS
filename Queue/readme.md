@@ -76,3 +76,9 @@ data is not corrupted between them.
 Task A goes to block state after sending 10 values to queue 
 
 
+
+3.queue 
+
+TAsk1 send 2 times data to the queue receive will take that data receive side array is implemented.
+
+
