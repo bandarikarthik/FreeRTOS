@@ -81,4 +81,4 @@ Task A goes to block state after sending 10 values to queue
 
 TAsk1 send 2 times data to the queue receive will take that data receive side array is implemented.
 
-
+4.queue and 5.queue will are almost same vishal bro sensor project equivalent done here.
